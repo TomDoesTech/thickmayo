@@ -218,7 +218,7 @@ export const add = action({
       messages: [
         {
           role: "system",
-          content: `You will be provideda link to a recipe. You will need to visit the page and extract the recipe. The recipe should be returned in JSON format and match the following schema:
+          content: `You will be provided a link to a recipe. You will need to visit the page and extract the recipe. The recipe should be returned in JSON format and match the following schema:
           {
             title: v.string(),
             description: v.string(),
